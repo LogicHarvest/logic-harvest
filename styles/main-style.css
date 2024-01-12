@@ -1,40 +1,49 @@
-@charset "utf-8";
 /* CSS Document */
 body {
-  background-color: #c1dce0; /* Light Blue-Grey */
-  color: #796829; /* Olive Green */
+  background-color: #c1dce0;
+  color: #796829;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 header {
-  background-color: #aa4008; /* Dark Reddish-Brown */
-  color: #c1dce0; /* Light Blue-Grey */
+  background-color: #aa4008;
+  color: #c1dce0;
   padding: 20px;
   text-align: center;
 }
+
 main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
   padding: 20px;
 }
+
 footer {
-  background-color: #aa4008; /* Dark Reddish-Brown */
-  color: #c1dce0; /* Light Blue-Grey */
+  background-color: #aa4008; 
+  color: #c1dce0; 
   padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
 h1 {
   margin: 0;
 }
+
 h2 {
-  color: #aa4008; /* Dark Reddish-Brown */
+  color: #aa4008;
 }
+
 .company-info {
   margin-top: 20px;
   font-size: 18px;
 }
+
 .repositories {
   margin-top: 20px;
   font-size: 16px;
