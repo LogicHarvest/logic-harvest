@@ -1,9 +1,11 @@
 /* CSS Document */
 
+@import url('colors.css');
+
 :root {
-  --bg-color: #f8f8f8;
-  --text-color: #333;
-  --link-color: #aa4008; 
+  --bg-color:var(--light-grey);
+  --text-color: var(--dark-grey);
+  --link-color: var(--dark-reddish-brown); 
 }
 
 body {
