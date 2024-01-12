@@ -1,9 +1,11 @@
 /* CSS Document */
 
+@import url('colors.css');
+
 :root {
-  --bg-color: #c1dce0;
-  --text-color: #796829;
-  --header-bg-color: #aa4008; 
+  --bg-color: var(--light-blue-grey);
+  --text-color: var(--olive-green);
+  --header-bg-color: var(--dark-reddish-brown); 
 }
 
 body {
