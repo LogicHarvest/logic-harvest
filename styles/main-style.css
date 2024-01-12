@@ -1,15 +1,22 @@
 /* CSS Document */
+
+:root {
+  --bg-color: #c1dce0;
+  --text-color: #796829;
+  --header-bg-color: #aa4008; 
+}
+
 body {
-  background-color: #c1dce0;
-  color: #796829;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #aa4008;
-  color: #c1dce0;
+  background-color: var(--header-bg-color);
+  color: var(--bg-color);
   padding: 20px;
   text-align: center;
 }
@@ -22,8 +29,8 @@ main {
 }
 
 footer {
-  background-color: #aa4008; 
-  color: #c1dce0; 
+  background-color: var(--header-bg-color); 
+  color: var(--bg-color); 
   padding: 10px;
   text-align: center;
   position: fixed;
@@ -36,7 +43,7 @@ h1 {
 }
 
 h2 {
-  color: #aa4008;
+  color: var(--header-bg-color);
 }
 
 .company-info {
