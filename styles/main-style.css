@@ -3,7 +3,7 @@
 :root {
   --bg-color: var(--light-blue-grey);
   --text-color: var(--olive-green);
-  --header-bg-color: var(--dark-reddish-brown); 
+  --header-bg-color: var(--dark-reddish-brown);
 }
 
 body {
@@ -29,8 +29,8 @@ main {
 }
 
 footer {
-  background-color: var(--header-bg-color); 
-  color: var(--bg-color); 
+  background-color: var(--header-bg-color);
+  color: var(--bg-color);
   padding: 10px;
   text-align: center;
   position: fixed;

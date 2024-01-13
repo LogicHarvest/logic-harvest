@@ -1,9 +1,9 @@
 @import url('colors.css');
 
 :root {
-  --bg-color:var(--light-grey);
+  --bg-color: var(--light-grey);
   --text-color: var(--dark-grey);
-  --link-color: var(--dark-reddish-brown); 
+  --link-color: var(--dark-reddish-brown);
 }
 
 body {
